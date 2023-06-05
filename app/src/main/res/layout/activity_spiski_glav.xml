@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spiski_glav">
+
+    <TextView
+        android:id="@+id/zagolovok_spiski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Списки"
+        android:textAlignment="center"
+        android:textColor="#302D2D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spisok_1"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="spisok_1"
+        android:text="Список №1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spisok_2"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="spisok_2"
+        android:text="Список №2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.450" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spisok_3"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="spisok_3"
+        android:text="Список №3"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nazad_k_glav2"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nazad_k_glav2"
+        android:text="Назад"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <TextView
+        android:id="@+id/podzogol_spiski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите список и заполните его"
+        android:textAlignment="center"
+        android:textColor="#302D2D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

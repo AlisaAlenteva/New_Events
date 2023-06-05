@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gift">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dobav_gift"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Добавить в список"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_gift"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#EED5B7"
+        android:text="Сохранить"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nazad_k_glav_gift"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="nazad_k_glav_gift"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <EditText
+        android:id="@+id/vvod_gift"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Введите название"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <ListView
+        android:id="@+id/spisok_gift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dobav_gift"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419"></ListView>
+
+    <TextView
+        android:id="@+id/text_gift"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:text="Подарки"
+        android:textAlignment="center"
+        android:textColor="#302D2D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/podskazka_button4"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:background="@drawable/circle_button"
+        android:drawableTop="@android:drawable/ic_menu_info_details"
+        android:onClick="onClick"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

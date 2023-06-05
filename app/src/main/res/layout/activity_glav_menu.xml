@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".glav_menu">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spiski"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="spiski"
+        android:text="Списки"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.640" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mesto"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="mesto"
+        android:text="Место"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.160" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/data"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="data"
+        android:text="Дата и Время"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.320" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/odejda"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="odejda"
+        android:text="Дресс-код"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.160" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kuhna"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="kuhna"
+        android:text="Кухня"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.320" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/scenariy"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="scenary"
+        android:text="Сценарий"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.480" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/detali"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Детали "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.480" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gosti1"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="gosti1"
+        android:text="Гости"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.640" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dalee2"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dalee1"
+        android:text="Далее"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/zagolovok3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уточним детали"
+        android:textColor="#302D2D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nazad1"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nazad_12"
+        android:text="Назад"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:onClick="onClick"
+        android:text="Запустить таймер"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtSeconds"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="00:00"
+        android:textColor="#302D2D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/podskazka_button"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:background="@drawable/circle_button"
+        android:drawableTop="@android:drawable/ic_menu_info_details"
+        android:onClick="onClick"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dress_cod">
+
+    <TextView
+        android:id="@+id/zagolovok4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дресс-код"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/nazvaniedress"
+        android:layout_width="291dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:hint=" "
+        android:inputType="textPersonName"
+        android:onClick="clear_1"
+        android:selectAllOnFocus="false"
+        android:text=" "
+        android:textColor="#302D2D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Spinner
+        android:id="@+id/vborcvet"
+        android:layout_width="364dp"
+        android:layout_height="57dp"
+        android:background="#EED5B7"
+        android:textColor="#302D2D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/cvet"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+        android:text="Выберите цвет дресс кода"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <EditText
+        android:id="@+id/Detali2"
+        android:layout_width="267dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:hint=" "
+        android:inputType="textPersonName"
+        android:onClick="clear_2"
+        android:selectAllOnFocus="false"
+        android:text=" "
+        android:textColor="#302D2D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nazad"
+        android:background="#EED5B7"
+        android:textColor="#363636"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nazad2"
+        android:text="Назад"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/nazvaniedress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_dress"
+        android:text="Введите название дресс-кода"
+        android:textColor="#090909"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <TextView
+        android:id="@+id/detali3"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:onClick="click_detali"
+        android:text="Введите детали дресс-кода"
+        android:textColor="#040404"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/podskazka_button3"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:background="@drawable/circle_button"
+        android:drawableTop="@android:drawable/ic_menu_info_details"
+        android:onClick="onClick"
+        android:textColor="#363636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
